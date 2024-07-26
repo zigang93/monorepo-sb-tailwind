@@ -1,0 +1,6 @@
+turbo/generators/templates/**
+packages/**/src/index.tsx
+**/CHANGELOG.md
+node_modules
+pnpm-lock.yaml
+mockServiceWorker.js

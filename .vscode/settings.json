@@ -1,0 +1,16 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "css.validate": false, // Disable css built-in lint
+  "stylelint.enable": true, // Enable sytlelint
+  "scss.validate": false, // Disable scss lint (optional if using scss)
+  "search.exclude": {
+    "turbo/**": true
+  },
+  "tailwindCSS.classAttributes": ["class", "className", ".*Classes"],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}

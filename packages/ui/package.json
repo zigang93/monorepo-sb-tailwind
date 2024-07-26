@@ -1,0 +1,16 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "sideEffects": false,
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "storybook": "storybook dev -p 7002 --no-open"
+  },
+  "dependencies": {
+    "eslint-config-custom": "1.2.2",
+    "tailwind-config": "1.1.1",
+    "tsconfig": "1.3.1"
+  }
+}

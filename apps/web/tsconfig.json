@@ -1,0 +1,24 @@
+{
+  "extends": "tsconfig/nextjs.json",
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.tsx",
+    "**/*.ts",
+    ".storybook/preview.tsx"
+  ],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "jsx": "preserve"
+  }
+}

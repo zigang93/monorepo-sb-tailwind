@@ -1,0 +1,35 @@
+{
+  "$schema": "https://turborepo.org/schema.json",
+  "ui": "tui",
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "inputs": ["$TURBO_DEFAULT$"],
+      "outputs": ["dist/**", ".next/**", "storybook-static/**"]
+    },
+    "test": {
+      "outputs": ["coverage/**"],
+      "persistent": true,
+      "dependsOn": []
+    },
+    "lint": {
+      "outputs": [],
+      "cache": false
+    },
+    "check-types": {
+      "cache": false
+    },
+    "start": {},
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "clean": {
+      "cache": false
+    },
+
+    "storybook": {
+      "cache": false
+    }
+  }
+}
